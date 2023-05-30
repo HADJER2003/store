@@ -1,0 +1,47 @@
+.w-450{
+    width: 450px;
+    background-color: var(--bs-body-bg);
+    border-radius: 0.5rem;
+    
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    background :url(./photo/luke-chesser-eICUFSeirc0-unsplash.jpg);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-size: cover;
+    align-items: center;
+    
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login h4{
+    font-size: 40px;
+}
+
+.btn {
+    --bs-btn-color: #fff;
+    --bs-btn-bg:#6e0aef ;
+    --bs-btn-border-color: #6e0aef;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6e0aef;
+    --bs-btn-hover-border-color: #6e0aef;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6e0aef;
+    --bs-btn-active-border-color:#6e0aef;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6e0aef;
+    --bs-btn-disabled-border-color: #6e0aef;
+}

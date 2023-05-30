@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital@0;1&family=Kanit&family=Smokum&family=Tilt+Neon&display=swap');
+
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    list-style :none ;
+    text-decoration :none ; 
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Tilt Neon', cursive; 
+}
+
+header{
+    width:100%;
+    top:0;
+    right:0;
+    z-index:1000;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:transparent;
+    transition: all .35s ease;
+    background-color: #ffffff;
+    height: 10vh;
+    margin:0 auto ;
+    padding: 0 5rem ;
+}
+.header-icons{
+    display: flex;
+}
+.logo {
+    font-size :2rem;
+    font-weight: 700px;
+    display: flex;
+    color:#111111;
+    align-items: center;
+    font-family: 'Tilt Neon', cursive;
+}
+.logo i{
+    color:#6e0aef;
+    padding-left: 0.75rem;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color:#111111;
+    font-weight: 500;
+    padding :10px 25px ;
+    font-size :1rem;
+    transition: all .36s ease;
+}
+.navlist a:hover{
+   color :#6e0aef;
+}
+.header-icons i {
+    font-size :32px;
+    color :#111111;
+    margin-right: 32px;
+    transition: all .36s ease;
+}
+.header-icons i:hover{
+    color :#6e0aef;
+}
+#menu-icon {
+   font-size: 34px;
+   color:#111111;
+   z-index: 10001;
+   margin-right: 20px;
+   display: none;
+}
+header.sticky{/*this make an effect in the header we make it with java script */
+    background: #ffffff;
+    padding :14px 14%;
+    box-shadow :0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+
+/* hero section */
+.hero {
+    background-color: #f8f7fc;
+}
+.hero-section {
+    max-width:1366px ;
+    height: 90vh; 
+    display: flex;/*make the photo and the text in the same line */
+    justify-content:space-between ;/*make a space between them */
+    align-items: center ;/*make the texte in the center */
+    margin: 0 auto ;
+    padding: 0 5rem;
+}
+.hero-section .content {
+    display:flex;
+    flex-direction: column;
+}
+.hero-section h4{
+    color:#6e0aef;
+    font-size:1.6rem;/*the size of the text beger*/
+    margin-bottom: 1rem;/*space between the first line and the text*/
+}
+.hero-section .content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.hero-section p{
+    color: rgb(29,29,29);
+    font-size:1rem;
+}
+.hero-section p span {
+    color: #6e0aef;
+}
+.hero-section img{
+    margin-top: 7rem;
+    border: 0.3rem solid #ff00c8;
+}
+.btn{
+    width: 10rem; /*3erd */
+    margin-top: 3rem;
+    border-radius: 0.7rem; /*7waf el zer*/
+    outline: none ;
+    border: none ;
+    padding :0.75rem 1.5rem;/*el irtefa3 w el 7waf*/
+    background-color: #6e0aef;
+    font-family: 'Tilt Neon', cursive;
+}
+.btn:hover{
+    transform: translateY(-5px);
+    background: #000000;
+    cursor:pointer;/*make the maouse as a pointer*/
+}
+.btn a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:1.4rem;
+}
+
+/*features section */
+
+section.features{
+    padding:2rem 0;
+    background-color: #f8f7fc;/*the background colore */
+}
+section.features .fatures-section{
+    max-width:1366px;
+    margin: 0 auto;
+    padding : 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+.fatures-section h4 {
+    color :#7d25f0;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;/*the space betwine the line h4 and the other texte*/
+}
+
+.fatures-section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.fatures-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding :2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.fatures-section .qualities .quality:hover{/*this make a border when the mouse selecte on the unite */
+ border: 2px solid #6e0aef ;
+}
+.qualities .quality i{
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
+}
+.qualities .quality h3{
+    font-size:1.6rem;
+    margin-bottom: 1rem;
+}
+.qualities .quality  p{
+    font-size :1.2rem;
+    text-align: center;
+    color: #4e547e;
+}
+/*site section */
+.newset-sit{
+    padding-top:5rem ;
+}
+.newset-sit .sit-section{
+  max-width: 1366px;
+  margin: 0 auto; 
+  padding: 0 5rem ;
+  display :flex;
+  flex-direction: column;
+}
+.sit-section h4 {
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.sit-section .sites {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;/*mack your page on the section */
+    justify-content: flex-start;
+}
+.sites .site{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.site img {
+    margin-bottom: 1rem;
+    border: 2px solid #070707;
+
+}
+.site img:hover{
+    cursor: pointer;
+    border: 2px solid #070707;
+    transform: scale(0.9)translateY(-5px);
+}
+
+.site h3 a{
+    font-size : 1.6rem;
+    text-decoration: none ;
+    color:#000000;
+}
+
+.sit-section button {
+    width: 15rem;
+    margin-bottom: 1rem ;
+    align-self: center;
+}
+
+.contact{
+    background: #f8f7fc;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto)) ;
+    gap:2rem;
+    padding: 100px 14%;
+    transition: .2s;
+}
+.main-contact h3{
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+    color:#111111;
+}
+.main-contact H5{
+    font-size: 15px;
+    font-weight: 600;
+    color:#111111 ;
+}
+.icons{
+    display: flex;
+    margin-top: 2rem;
+}
+.icons i{
+    font-size: 25px;
+    margin-right: 1rem;
+    color :#111111;
+    transition :all .35s ease;
+}
+.icons i:hover{
+   color :#6e0aef ;
+   transform:scale(1.1) translateY(-5px);
+}
+.main-contact li {
+    margin-bottom: 15px;
+}
+.main-contact:hover{
+    cursor: pointer;
+  }
+.main-contact li a {
+    display :block;
+    color:#555;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+.main-contact li a:hover {
+    color :#6e0aef ;
+    transform: translateX(-8px); 
+}
+.last-text{
+   text-align: center;
+   padding: 20px;
+   background: #f8f7fc; 
+}
+.last-text p{
+   color:#555;
+   font-size: 14px; 
+   letter-spacing:1px ;
+}
+
+.brand{
+    padding :50px 14%;
+}
+.brand-content{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	gap: 2rem;
+	align-items: center;
+    justify-content:center ;
+}
+.main img{
+    width:100%;
+    height:auto ;
+    opacity: .6;
+    transition :all .35s ease;
+    cursor: pointer;
+}
+.main img:hover{
+    opacity: 1;
+    border-radius: 10px;
+    border:2px solid #050505;
+}
+
+
+/*responsive design*/
+
+@media (max-width: 1300px){
+    *{
+        font-size: 85%;
+    }
+    .logo {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:1170px){
+    *{
+        font-size: 80%;
+    }
+    .logo{
+    font-size: 3rem;
+}
+}
+
+@media(max-width:1000px){
+    *{
+        font-size: 80%;
+    }
+    .logo {
+        font-size: 3rem;
+    }
+    .hero-image {
+        display: none;
+    }
+
+.hero-section {
+    align-items: center;
+    padding: 2rem 0;
+    width: 50%;
+}
+.hero .btn{
+    align-self: center;
+}
+.hero .content{
+    margin-top: 3rem;
+}
+.fatures-section .qualities{
+    flex-wrap: wrap ;/*make the number of section of qualities more smoler */
+    justify-content: center;
+}
+section.features .fatures-section{
+    align-items: center;
+}
+.hero-section {
+    height: 80vh;
+}
+section {
+    text-align: left;
+    padding: 80px 4%;
+    transition: .2s;
+}
+header{
+    padding: 7px 4%;
+    transition :.2s;
+}
+header.sticky{
+    padding :14px 4%;
+    transition:.2s;
+}
+}
+@media(max-width:600px){
+ .hero-section .content h1{
+    font-size:3rem ;
+ }
+ .sit-section{
+    align-items: center;
+ }
+
+ .sit-section .sites{
+    grid-template-columns: 1fr 1fr;
+ }
+ #menu-icon{
+    display:   block;
+}
+.header-icons{
+    display: inline-flex; 
+}
+.navlist{
+    position: absolute;
+    top:100%;
+    left: -100%;
+    width: 280px;
+    height: 120vh;
+    background:#ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 30px;
+    transition: all .45s ease;
+}
+.navlist a{
+    display: block;
+    margin: 1.2rem 0;
+}
+.navlist.open{
+    left: 0;
+}
+.bx-menu:hover{
+    cursor: pointer;
+}
+.digital-clock{
+    font-size :15px;
+}
+.logo{
+    font-size: 2rem;
+}
+}
+
+@media(max-width:500px){
+.sit-section .sites{
+    grid-template-columns:1fr ;
+}
+header{
+    position: sticky;
+    top :0;
+    width: 100%;
+}
+    header .fa-bars {
+    display: block;
+    font-size: 2rem;
+    }
+    
+    header .nav-items{
+        display: none;
+        position: absolute;/*faselnahom 3n el chach */
+        right: 0;
+        top:10vh;
+        flex-direction: column;
+        width: 50%;
+       background-color: #6e0aef;
+       padding: 1rem;
+       border-radius: 0.7rem;
+    }
+    header .nav-items.active{
+        display: flex;
+    }
+    header .nav-items .nav-item{
+        margin: 1rem 0;
+    }
+    header .nav-items .nav-item a:hover {
+        color:#000000;
+    }
+    header .nav-items .nav-item a{
+        color: #ffff;
+    }
+    .logo h4{
+        display: none;
+    }
+}
+.top{
+    position :fixed;
+    bottom: 2rem;
+    right: 2rem;  
+  }
+  
+  .top i{
+      font-size: 20px;
+      color:#111111;
+      padding:14px 17px;
+      background :#6e0aef;
+      border-radius: 4rem;
+
+  }
+  #digital-clock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+  }
