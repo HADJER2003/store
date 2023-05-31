@@ -474,10 +474,7 @@ header{
     }
     header .nav-items .nav-item a{
         color: #ffff;
-    }
-    .logo h4{
-        display: none;
-    }
+	}
 }
 .top{
     position :fixed;
