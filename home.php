@@ -24,7 +24,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['fname'])) {
           <li> <a href ="./home1.php">Home</a></li>
           <li> <a href ="#new">New</a></li>
           <li> <a href ="#contact">contact</a></li>
-          <li> <a href ="http://localhost/login-signup/" style="color: rgb(255, 0, 242); border:2px solid rgb(255, 0, 242); border-radius: 0.7rem;">logout</a></li>
+          <li> <a href ="index (3).html" style="color: rgb(255, 0, 242); border:2px solid rgb(255, 0, 242); border-radius: 0.7rem;">logout</a></li>
         </ul>
         <div class ="header-icons">
           <div class="bx bx-menu" id="menu-icon"></div>
