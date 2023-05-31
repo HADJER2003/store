@@ -11,7 +11,6 @@ body {
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
     color: var(--bs-body-color);
-    background :url(luke-chesser-eICUFSeirc0-unsplash.jpg);
     text-align: var(--bs-body-text-align);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -45,3 +44,5 @@ body {
     --bs-btn-disabled-bg: #6e0aef;
     --bs-btn-disabled-border-color: #6e0aef;
 }
+body{
+    background :url(luke-chesser-eICUFSeirc0-unsplash.jpg);}
