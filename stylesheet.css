@@ -93,7 +93,7 @@ section {
 .home { 
     min-height: 100vh;
     width: 100%;
-    background:url("./photo/men1.jpg") ;
+    background:url("men1.jpg") ;
     background-size: cover;
     background-position: center top;
     position: relative;
@@ -215,7 +215,7 @@ header.sticky{/*this make an effect in the header we make it with java script */
 .cta {
     height:80vh;
     width:100%;
-    background: url(./photo/ffffc.png);
+    background: url(ffffc.png);
     background-size: cover;
     display :flex;
     align-items : center ;
@@ -237,7 +237,7 @@ header.sticky{/*this make an effect in the header we make it with java script */
 .cta1 {
     height:80vh;
     width:100%;
-    background: url(./photo/children\ \(1\).jpg);
+    background: url(children\ \(1\).jpg);
     background-size: cover;
     display :flex;
     align-items : center ;
@@ -259,7 +259,7 @@ header.sticky{/*this make an effect in the header we make it with java script */
 .cta2 {
     height:80vh;
     width:100%;
-    background: url(./photo/pexels-valeriia-miller-3910071.jpg);
+    background: url(pexels-valeriia-miller-3910071.jpg);
     background-size: cover;
     display :flex;
     align-items : center ;
@@ -280,7 +280,7 @@ header.sticky{/*this make an effect in the header we make it with java script */
 .cta3{
     height:80vh;
     width:100%;
-    background: url(./photo/pexels-rafa-de-345415.jpg);
+    background: url(pexels-rafa-de-345415.jpg);
     background-size: cover;
     display :flex;
     align-items : center ;
@@ -301,7 +301,7 @@ header.sticky{/*this make an effect in the header we make it with java script */
 .cta4 {
     height:80vh;
     width:100%;
-    background: url(./photo/photo_5992117146659961307_y.jpg);
+    background: url(photo_5992117146659961307_y.jpg);
     background-size: cover;
     display :flex;
     align-items : center ;
@@ -322,7 +322,7 @@ header.sticky{/*this make an effect in the header we make it with java script */
 .cta5 {
     height:80vh;
     width:100%;
-    background: url(./photo/home.jpg);
+    background: url(home.jpg);
     background-size: cover;
     display :flex;
     align-items : center ;
