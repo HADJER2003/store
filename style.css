@@ -11,7 +11,7 @@ body {
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
     color: var(--bs-body-color);
-    background :url(./photo/luke-chesser-eICUFSeirc0-unsplash.jpg);
+    background :url(luke-chesser-eICUFSeirc0-unsplash.jpg);
     text-align: var(--bs-body-text-align);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
